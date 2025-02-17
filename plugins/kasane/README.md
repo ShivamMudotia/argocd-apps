@@ -22,7 +22,7 @@ data:
 ```
 argocd app create kasane \
     --config-management-plugin kasane \
-    --repo https://github.com/argoproj/argocd-example-apps \
+    --repo https://github.com/ShivamMudotia/argocd-apps \
     --path plugins/kasane \
     --dest-server https://kubernetes.default.svc \
     --dest-namespace default
